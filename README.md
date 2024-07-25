@@ -17,6 +17,7 @@
 <img src="https://github.com/user-attachments/assets/56617a58-3034-4ee4-b29d-56671f355f9f" width="250" alt="Simulator Screenshot 3">
 <img src="https://github.com/user-attachments/assets/4f4d69dd-9e84-49d7-ad7c-343d004fcb7f" width="250" alt="Simulator Screenshot 4">
 <img src="https://github.com/user-attachments/assets/2dfe906b-bab4-4426-b499-f7dd03f4b9df" width="250" alt="Simulator Screenshot 5">
+<img src="https://github.com/user-attachments/assets/a47fb05f-cd89-4f20-8885-ad7a22afc0ac" width="250" alt="Simulator Screenshot 6">
 
 ## Installation
 
