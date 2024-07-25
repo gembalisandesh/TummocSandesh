@@ -24,7 +24,7 @@ struct FloatingCategoriesButton: View {
                             Text(category.name)
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding()
-                                .background(Color.gray.opacity(0.1))
+                                .background(Color.white)
                                 .cornerRadius(10)
                         }
                     }
