@@ -12,7 +12,12 @@
 
 ## Screenshots
 
-[Insert screenshots here]
+![Simulator Screenshot - iPhone 15 Pro - 2024-07-26 at 00 27 24](https://github.com/user-attachments/assets/e76e6af9-31a1-492e-aa41-fbf9c0988ae2)
+![Simulator Screenshot - iPhone 15 Pro - 2024-07-26 at 00 26 55](https://github.com/user-attachments/assets/277ec40c-02a0-4201-af18-e3baa0c800b1)
+![Simulator Screenshot - iPhone 15 Pro - 2024-07-26 at 00 27 11](https://github.com/user-attachments/assets/56617a58-3034-4ee4-b29d-56671f355f9f)
+![Simulator Screenshot - iPhone 15 Pro - 2024-07-26 at 00 27 08](https://github.com/user-attachments/assets/4f4d69dd-9e84-49d7-ad7c-343d004fcb7f)
+![Simulator Screenshot - iPhone 15 Pro - 2024-07-26 at 00 27 16](https://github.com/user-attachments/assets/2dfe906b-bab4-4426-b499-f7dd03f4b9df)
+
 
 ## Installation
 
