@@ -24,7 +24,7 @@
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/tummoc.git
+   [(https://github.com/gembalisandesh/TummocSandesh.git)]
    ```
 
 2. **Open the project in Xcode:**
