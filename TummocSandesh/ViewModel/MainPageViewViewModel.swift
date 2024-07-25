@@ -91,7 +91,7 @@ final class MainPageViewViewModel: ObservableObject {
                                     addToFavorites: { self.toggleFavorite(item) },
                                     addToCart: { self.incrementCart(item.id) })
                     }
-                    .frame(width: 140) // Adjust the width to match ItemRowView
+                    .frame(width: 140) 
                 }
             }
             .padding(.horizontal, 10)
