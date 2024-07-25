@@ -1,0 +1,64 @@
+Tummoc
+Tummoc is a SwiftUI-based iOS application that showcases products from various categories. The app allows users to mark items as favorites, add them to a shopping cart, and navigate through the categories using a floating button. It also displays app creator details.
+
+Features
+Product Categories: View products organized by categories.
+Favorites: Mark items as favorites and view them in a dedicated section.
+Shopping Cart: Add items to the cart, manage cart contents, and view the total cart value.
+Floating Button: Quickly navigate between product categories using a floating button.
+Creator Details: View app creator details from the navigation bar on the main page.
+Screenshots
+
+
+
+
+Installation
+Clone the repository:
+
+sh
+Copy code
+git clone https://github.com/your-username/tummoc.git
+cd tummoc
+Open the project in Xcode:
+
+sh
+Copy code
+open Tummoc.xcodeproj
+Run the app:
+Select the target device or simulator and click the Run button in Xcode.
+
+Usage
+Main Page
+Navigation: The main page displays a list of product categories. Use the floating button to quickly navigate between categories.
+Products: Tap on a product to view its details. You can add it to favorites or to the cart.
+Creator Details: Access the creator details by tapping the icon in the navigation bar.
+Favorites
+View Favorites: Access the favorites view by tapping the heart icon in the navigation bar.
+Manage Favorites: Add or remove items from favorites.
+Cart
+View Cart: Access the cart view by tapping the cart icon in the navigation bar.
+Manage Cart: View items in the cart, adjust quantities, and view the total cart value.
+Checkout: Proceed to checkout or remove all items from the cart.
+Code Overview
+MainPageView
+The MainPageView struct is the main view of the app, displaying the list of categories and handling navigation. It includes a floating button for category navigation and an option to view creator details.
+
+MainPageViewViewModel
+The MainPageViewViewModel class is the view model for the MainPageView. It handles managing favorites and cart items, and providing data to the view.
+
+Customization
+Adding New Categories and Items
+To add new categories and items, update the static categories variable in the MainPageView.
+
+Adjusting UI
+The UI can be customized by modifying the SwiftUI views. Adjust the appearance, layout, and style as needed.
+
+Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgements
+Icons used in the project are sourced from Flaticon.
+This project uses SwiftUI for a seamless and efficient user experience.
