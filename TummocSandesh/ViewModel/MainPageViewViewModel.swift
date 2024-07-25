@@ -119,7 +119,7 @@ final class MainPageViewViewModel: ObservableObject {
                 favorites: self.favorites,
                 items: categories.flatMap { $0.items },
                 toggleFavorite: self.toggleFavorite,
-                addToCart: { item in self.addToCart(item) }  // Add this closure
+                addToCart: { item in self.addToCart(item) }  
             )) {
                 Image(systemName: "heart.fill")
                     .imageScale(.large)
