@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F6297A52C525DF90007B281 /* ItemRowFavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6297A42C525DF90007B281 /* ItemRowFavView.swift */; };
+		7FB7CC842C501A90004577EF /* TummocSandeshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC832C501A90004577EF /* TummocSandeshApp.swift */; };
+		7FB7CC862C501A90004577EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC852C501A90004577EF /* ContentView.swift */; };
+		7FB7CC882C501A91004577EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB7CC872C501A91004577EF /* Assets.xcassets */; };
+		7FB7CC8B2C501A91004577EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB7CC8A2C501A91004577EF /* Preview Assets.xcassets */; };
+		7FB7CC9D2C501AC8004577EF /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC912C501AC8004577EF /* CartView.swift */; };
+		7FB7CC9F2C501AC8004577EF /* CreaterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC932C501AC8004577EF /* CreaterDetailsView.swift */; };
+		7FB7CCA02C501AC8004577EF /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC942C501AC8004577EF /* FavoritesView.swift */; };
+		7FB7CCA12C501AC8004577EF /* FloatingCategoriesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC952C501AC8004577EF /* FloatingCategoriesButton.swift */; };
+		7FB7CCA22C501AC8004577EF /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC962C501AC8004577EF /* ItemDetailView.swift */; };
+		7FB7CCA32C501AC8004577EF /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC972C501AC8004577EF /* ItemRowView.swift */; };
+		7FB7CCA42C501AC8004577EF /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC982C501AC8004577EF /* MainPageView.swift */; };
+		7FB7CCA52C501AC8004577EF /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC992C501AC8004577EF /* URLImage.swift */; };
+		7FB7CCA62C501AC8004577EF /* MainPageViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC9B2C501AC8004577EF /* MainPageViewViewModel.swift */; };
+		7FB7CCA92C501AE6004577EF /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CCA72C501AE6004577EF /* item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F6297A42C525DF90007B281 /* ItemRowFavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowFavView.swift; sourceTree = "<group>"; };
+		7FB7CC802C501A90004577EF /* TummocSandesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TummocSandesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB7CC832C501A90004577EF /* TummocSandeshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TummocSandeshApp.swift; sourceTree = "<group>"; };
+		7FB7CC852C501A90004577EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FB7CC872C501A91004577EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FB7CC8A2C501A91004577EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FB7CC912C501AC8004577EF /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		7FB7CC932C501AC8004577EF /* CreaterDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreaterDetailsView.swift; sourceTree = "<group>"; };
+		7FB7CC942C501AC8004577EF /* FavoritesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		7FB7CC952C501AC8004577EF /* FloatingCategoriesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingCategoriesButton.swift; sourceTree = "<group>"; };
+		7FB7CC962C501AC8004577EF /* ItemDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		7FB7CC972C501AC8004577EF /* ItemRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		7FB7CC982C501AC8004577EF /* MainPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		7FB7CC992C501AC8004577EF /* URLImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		7FB7CC9B2C501AC8004577EF /* MainPageViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewViewModel.swift; sourceTree = "<group>"; };
+		7FB7CCA72C501AE6004577EF /* item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB7CC7D2C501A90004577EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FB7CC772C501A90004577EF = {
+			isa = PBXGroup;
+			children = (
+				7FB7CC822C501A90004577EF /* TummocSandesh */,
+				7FB7CC812C501A90004577EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB7CC812C501A90004577EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7CC802C501A90004577EF /* TummocSandesh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB7CC822C501A90004577EF /* TummocSandesh */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7CCA82C501AE6004577EF /* Model */,
+				7FB7CC832C501A90004577EF /* TummocSandeshApp.swift */,
+				7FB7CC9A2C501AC8004577EF /* View */,
+				7FB7CC9C2C501AC8004577EF /* ViewModel */,
+				7FB7CC852C501A90004577EF /* ContentView.swift */,
+				7FB7CC872C501A91004577EF /* Assets.xcassets */,
+				7FB7CC892C501A91004577EF /* Preview Content */,
+			);
+			path = TummocSandesh;
+			sourceTree = "<group>";
+		};
+		7FB7CC892C501A91004577EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7CC8A2C501A91004577EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FB7CC9A2C501AC8004577EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7CC912C501AC8004577EF /* CartView.swift */,
+				7FB7CC932C501AC8004577EF /* CreaterDetailsView.swift */,
+				7FB7CC942C501AC8004577EF /* FavoritesView.swift */,
+				7FB7CC952C501AC8004577EF /* FloatingCategoriesButton.swift */,
+				7FB7CC962C501AC8004577EF /* ItemDetailView.swift */,
+				7F6297A42C525DF90007B281 /* ItemRowFavView.swift */,
+				7FB7CC972C501AC8004577EF /* ItemRowView.swift */,
+				7FB7CC982C501AC8004577EF /* MainPageView.swift */,
+				7FB7CC992C501AC8004577EF /* URLImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FB7CC9C2C501AC8004577EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7CC9B2C501AC8004577EF /* MainPageViewViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7FB7CCA82C501AE6004577EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7CCA72C501AE6004577EF /* item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB7CC7F2C501A90004577EF /* TummocSandesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB7CC8E2C501A91004577EF /* Build configuration list for PBXNativeTarget "TummocSandesh" */;
+			buildPhases = (
+				7FB7CC7C2C501A90004577EF /* Sources */,
+				7FB7CC7D2C501A90004577EF /* Frameworks */,
+				7FB7CC7E2C501A90004577EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TummocSandesh;
+			productName = TummocSandesh;
+			productReference = 7FB7CC802C501A90004577EF /* TummocSandesh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB7CC782C501A90004577EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7FB7CC7F2C501A90004577EF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7FB7CC7B2C501A90004577EF /* Build configuration list for PBXProject "TummocSandesh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FB7CC772C501A90004577EF;
+			productRefGroup = 7FB7CC812C501A90004577EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB7CC7F2C501A90004577EF /* TummocSandesh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB7CC7E2C501A90004577EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB7CC8B2C501A91004577EF /* Preview Assets.xcassets in Resources */,
+				7FB7CC882C501A91004577EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB7CC7C2C501A90004577EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB7CCA12C501AC8004577EF /* FloatingCategoriesButton.swift in Sources */,
+				7FB7CC9D2C501AC8004577EF /* CartView.swift in Sources */,
+				7FB7CCA42C501AC8004577EF /* MainPageView.swift in Sources */,
+				7FB7CCA32C501AC8004577EF /* ItemRowView.swift in Sources */,
+				7FB7CC862C501A90004577EF /* ContentView.swift in Sources */,
+				7FB7CCA02C501AC8004577EF /* FavoritesView.swift in Sources */,
+				7FB7CCA22C501AC8004577EF /* ItemDetailView.swift in Sources */,
+				7FB7CCA92C501AE6004577EF /* item.swift in Sources */,
+				7F6297A52C525DF90007B281 /* ItemRowFavView.swift in Sources */,
+				7FB7CC842C501A90004577EF /* TummocSandeshApp.swift in Sources */,
+				7FB7CC9F2C501AC8004577EF /* CreaterDetailsView.swift in Sources */,
+				7FB7CCA52C501AC8004577EF /* URLImage.swift in Sources */,
+				7FB7CCA62C501AC8004577EF /* MainPageViewViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7FB7CC8C2C501A91004577EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FB7CC8D2C501A91004577EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FB7CC8F2C501A91004577EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TummocSandesh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandesh.com.TummocSandesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FB7CC902C501A91004577EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TummocSandesh/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandesh.com.TummocSandesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB7CC7B2C501A90004577EF /* Build configuration list for PBXProject "TummocSandesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB7CC8C2C501A91004577EF /* Debug */,
+				7FB7CC8D2C501A91004577EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB7CC8E2C501A91004577EF /* Build configuration list for PBXNativeTarget "TummocSandesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB7CC8F2C501A91004577EF /* Debug */,
+				7FB7CC902C501A91004577EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB7CC782C501A90004577EF /* Project object */;
+}
