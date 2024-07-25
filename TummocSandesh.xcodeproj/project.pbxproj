@@ -101,8 +101,8 @@
 		7FB7CC822C501A90004577EF /* TummocSandesh */ = {
 			isa = PBXGroup;
 			children = (
-				7FB7CCA82C501AE6004577EF /* Model */,
 				7FB7CC832C501A90004577EF /* TummocSandeshApp.swift */,
+				7FB7CCA82C501AE6004577EF /* Model */,
 				7FB7CC9A2C501AC8004577EF /* View */,
 				7FB7CC9C2C501AC8004577EF /* ViewModel */,
 				7FB7CC872C501A91004577EF /* Assets.xcassets */,
