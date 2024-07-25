@@ -2,7 +2,7 @@
 //  TummocSandeshApp.swift
 //  TummocSandesh
 //
-//  Created by user263604 on 7/24/24.
+//  Created by gembali sandesh kumar on 7/25/24.
 //
 
 import SwiftUI
@@ -10,7 +10,6 @@ import SwiftUI
 @main
 struct TummocSandeshApp: App {
     var body: some Scene {
-        //let persistenceController = PersistenceController.shared
         WindowGroup {
             MainPageView()
         }

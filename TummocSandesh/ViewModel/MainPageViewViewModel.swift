@@ -1,5 +1,13 @@
+//
+//  MainPageViewViewModel.swift
+//  TummocSandesh
+//
+//  Created by gembali sandesh kumar on 7/25/24.
+//
+
 import SwiftUI
 import Foundation
+
 final class MainPageViewViewModel: ObservableObject {
     @Published private var favorites: Set<Int> = []
     @Published private var cart: [Int: Int] = [:]

@@ -1,8 +1,8 @@
 //
-//  URLimageView.swift
-//  tummoc
+//  URLImage.swift
+//  TummocSandesh
 //
-//  Created by Reddy Bharadwaj Chowdary on 25/01/24.
+//  Created by gembali sandesh kumar on 7/25/24.
 //
 
 import SwiftUI

@@ -1,3 +1,10 @@
+//
+//  temRowView.swift
+//  TummocSandesh
+//
+//  Created by gembali sandesh kumar on 7/25/24.
+//
+
 import SwiftUI
 
 struct ItemRowView: View {
@@ -29,8 +36,8 @@ struct ItemRowView: View {
                         .clipShape(Circle())
                 }
                 .padding(6)
-                .padding(.leading, 40) // Additional padding to move it further left
-                .padding(.top, 1) // Additional padding to move it further down
+                .padding(.leading, 40)
+                .padding(.top, 1)
             }
             
             Text(item.name)
@@ -59,13 +66,12 @@ struct ItemRowView: View {
     }
 }
 
-struct ItemRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        ItemRowView(
-            item: Item(id: 1, name: "Sample Item", icon: "https://via.placeholder.com/100", price: 100.0),
-            isFavorite: true,
-            addToFavorites: {},
-            addToCart: {}
-        )
-    }
+
+#Preview {
+    ItemRowView(
+        item: Item(id: 1, name: "Sample Item", icon: "https://via.placeholder.com/100", price: 100.0),
+        isFavorite: true,
+        addToFavorites: {},
+        addToCart: {}
+    )
 }

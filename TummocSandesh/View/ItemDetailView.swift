@@ -1,6 +1,11 @@
+//
+//  ItemDetailView.swift
+//  TummocSandesh
+//
+//  Created by gembali sandesh kumar on 7/25/24.
+//
 
 import SwiftUI
-
 
 struct ItemDetailView: View {
     let item: Item

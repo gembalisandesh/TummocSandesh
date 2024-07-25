@@ -1,3 +1,10 @@
+//
+//  CartView.swift
+//  TummocSandesh
+//
+//  Created by gembali sandesh kumar on 7/25/24.
+//
+
 import SwiftUI
 
 struct CartView: View {
@@ -49,8 +56,7 @@ struct CartView: View {
                         }
                     }
                 }
-                
-                // Display subtotal, discount, and total cart value
+               
                 VStack(alignment: .leading, spacing: 10) {
                     Text("Subtotal: ₹\(calculateSubtotal(), specifier: "%.2f")")
                         .font(.headline)
@@ -73,11 +79,10 @@ struct CartView: View {
             .navigationTitle("Cart")
 
             Spacer()
-            
-            // Checkout Button
+           
             Button(action: {
                 removeAllItems()
-                // Handle checkout action here
+                
                 print("Proceeding to checkout")
             }) {
                 Text("Checkout")
@@ -119,13 +124,13 @@ struct CartView: View {
     CartView(
         cart: [5501: 2, 5602: 1],
         toggleCart: { itemId in
-            // Handle toggle cart action
+            
         },
         removeAllItems: {
-            // Handle remove all items action
+            
         },
         removeItem: { itemId in
-            // Handle remove item action
+            
         },
         items: [
             Item(id: 5501, name: "Potato Chips", icon: "https://cdn-icons-png.flaticon.com/128/2553/2553691.png", price: 40.00),

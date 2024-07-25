@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7F6297A52C525DF90007B281 /* ItemRowFavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6297A42C525DF90007B281 /* ItemRowFavView.swift */; };
 		7FB7CC842C501A90004577EF /* TummocSandeshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC832C501A90004577EF /* TummocSandeshApp.swift */; };
-		7FB7CC862C501A90004577EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC852C501A90004577EF /* ContentView.swift */; };
 		7FB7CC882C501A91004577EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB7CC872C501A91004577EF /* Assets.xcassets */; };
 		7FB7CC8B2C501A91004577EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB7CC8A2C501A91004577EF /* Preview Assets.xcassets */; };
 		7FB7CC9D2C501AC8004577EF /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7CC912C501AC8004577EF /* CartView.swift */; };
@@ -28,7 +27,6 @@
 		7F6297A42C525DF90007B281 /* ItemRowFavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowFavView.swift; sourceTree = "<group>"; };
 		7FB7CC802C501A90004577EF /* TummocSandesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TummocSandesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB7CC832C501A90004577EF /* TummocSandeshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TummocSandeshApp.swift; sourceTree = "<group>"; };
-		7FB7CC852C501A90004577EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FB7CC872C501A91004577EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB7CC8A2C501A91004577EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FB7CC912C501AC8004577EF /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 				7FB7CC832C501A90004577EF /* TummocSandeshApp.swift */,
 				7FB7CC9A2C501AC8004577EF /* View */,
 				7FB7CC9C2C501AC8004577EF /* ViewModel */,
-				7FB7CC852C501A90004577EF /* ContentView.swift */,
 				7FB7CC872C501A91004577EF /* Assets.xcassets */,
 				7FB7CC892C501A91004577EF /* Preview Content */,
 			);
@@ -198,7 +195,6 @@
 				7FB7CC9D2C501AC8004577EF /* CartView.swift in Sources */,
 				7FB7CCA42C501AC8004577EF /* MainPageView.swift in Sources */,
 				7FB7CCA32C501AC8004577EF /* ItemRowView.swift in Sources */,
-				7FB7CC862C501A90004577EF /* ContentView.swift in Sources */,
 				7FB7CCA02C501AC8004577EF /* FavoritesView.swift in Sources */,
 				7FB7CCA22C501AC8004577EF /* ItemDetailView.swift in Sources */,
 				7FB7CCA92C501AE6004577EF /* item.swift in Sources */,
